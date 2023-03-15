@@ -234,15 +234,3 @@ example:
 ```
 yarn truffle run verify PriceConsumerV3 --network goerli
 ```
-
-
-# Contributing
-
-Contributions are always welcome! Open a PR or an issue!
-
-# Thank You!
-
-## Resources
-
-- [Chainlink Documentation](https://docs.chain.link/)
-- [Truffle Documentation](https://trufflesuite.com/)
