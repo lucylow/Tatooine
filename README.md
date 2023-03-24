@@ -194,34 +194,6 @@ yarn truffle exec scripts/requestAndReadAPI.js --network <NETWORK>
 ```
 
 
-## VRF Get a random number
-
-The VRF Consumer contract has one script, to request a random number and wait for a response. 
-
-You can deploy just the VRF Consumer with:
-
-```
-truffle deploy --f 5 --to 5 --network <NETWORK>
-```
-
-After deployment, you'll need to add your contract address to your subscription. Head over to [vrf.chain.link](https://vrf.chain.link/goerli/new) and add your consumer. 
-
-Then, run the following:
-
-```bash
-yarn truffle exec scripts/requestAndReadRandomNumber.js --network <NETWORK>
-```
-
-## Keepers
-
-The Keepers Consumer contract has one script, to check the upkeep. After deployment, run the following:
-
-```bash
-yarn truffle exec scripts/checkUpkeep.js --network <NETWORK>
-```
-
-To see everything in action, you'll want to set up a consumer at [keepers.chain.link](https://keepers.chain.link/goerli).
-
 ## Verify on Etherscan
 
 You'll need an `ETHERSCAN_API_KEY` environment variable. You can get one from the [Etherscan API site.](https://etherscan.io/apis). If you have it set, your deploy script will try to verify them by default, but if you want to verify any manually, you can run: 
